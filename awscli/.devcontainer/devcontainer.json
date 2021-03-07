@@ -1,0 +1,6 @@
+{
+    "name": "awscli2",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/workspace"
+}

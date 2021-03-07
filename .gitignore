@@ -1,0 +1,5 @@
+# direnv configuration file
+.envrc
+# .DS_Store
+.DS_Store
+

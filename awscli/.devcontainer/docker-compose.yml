@@ -1,0 +1,10 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+    volumes:
+      - ~/.gitconfig:/root/.gitconfig
+      - ~/.aws:/root/.aws
+      - ..:/workspace:cached
+    command: sleep infinity
